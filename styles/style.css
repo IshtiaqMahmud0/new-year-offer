@@ -38,17 +38,15 @@ body {
     align-items: center;
 }
 
-.banner-content p,
-h1 {
-    color: white;
-}
 
 .banner-content p {
+    color: white;
     font-size: 32px;
     font-weight: 400;
 }
 
 .banner-content h1 {
+    color: white;
     font-size: 72px;
     font-weight: 900;
 }
@@ -57,7 +55,42 @@ h1 {
 .second-section-container {
     max-width: 802.9px;
     height: 806px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 120px auto;
+}
 
+.second-section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section-title {
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.second-section-subtitle {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(255, 0, 0);
+    margin-top: 48px;
+}
+
+.second-section-content h3 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+.second-section-img{
+    border: 2px dashed #474747;
+}
+.second-section-img img{
+    height: 100%;
+    width: 100%;
 }
